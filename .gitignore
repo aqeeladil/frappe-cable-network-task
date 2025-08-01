@@ -205,3 +205,55 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python cache and env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+*.env
+
+# Node & JS build files
+node_modules/
+*.log
+*.lock
+*.bak
+
+# Bench-generated files
+sites/*/private/
+sites/*/public/backups/
+sites/*/logs/
+sites/*/locks/
+sites/*/*.db
+sites/*/site_config.json
+sites/assets/
+sites/apps.txt
+sites/common_site_config.json
+sites/cable.local/site_config.json
+sites/cable.local/*.db
+
+# Frappe build artifacts
+*.tar.gz
+*.egg-info/
+dist/
+build/
+
+# Mac/Linux OS junk
+.DS_Store
+*.swp
+Thumbs.db
+
+# VSCode / PyCharm / IDE files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Optional: ignore test uploads or temporary test files
+test_*.json
